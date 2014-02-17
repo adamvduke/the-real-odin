@@ -18,7 +18,8 @@
     "hubot": "2.7.1",
     "hubot-scripts": ">= 2.5.8",
     "optparse": "1.0.3",
-    "ntwitter": "0.5.0"
+    "ntwitter": "0.5.0",
+    "twit": "1.1.6"
   },
 
   "engines": {
