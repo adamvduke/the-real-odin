@@ -1,3 +1,15 @@
+# Description
+#   Posts several 'No' related gifs based on hearing certain things
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#  None
+#
+# Commands:
+#   None
+
 module.exports = (robot) ->
   robot.hear /(what\? no|no no no)(\W|$)/i, (msg) ->
     msg.send "http://mlkshk.com/r/AKHF.gif"

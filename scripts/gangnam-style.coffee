@@ -1,5 +1,15 @@
-# Gangnam Style
+# Description
+#   Listens for 'gangnam' and posts a random gangnam style gif
 #
+# Dependencies:
+#   None
+#
+# Configuration:
+#  None
+#
+# Commands:
+#   None
+
 
 images = [
   "http://d2tq98mqfjyz2l.cloudfront.net/image_cache/1344515103658343_animate.gif",
