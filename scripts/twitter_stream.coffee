@@ -48,7 +48,8 @@ module.exports = (robot) ->
     twit = new Twit config
     stream = twit.stream('statuses/filter', track: default_filters)
     stream.on "tweet", (tweet) ->
-      msg.send "https://twitter.com/#{tweet.user.screen_name}/status/#{tweet.id_str}"
+      unless tweet.text.indexOf('RT ') == 0
+        msg.send "https://twitter.com/#{tweet.user.screen_name}/status/#{tweet.id_str}"
     stream.on "disconnect", (disconnectMessage) ->
       stream = null
       msg.send "I've been disconnected from the Twitter stream. Apparently the reason is: #{disconnectMessage}"
