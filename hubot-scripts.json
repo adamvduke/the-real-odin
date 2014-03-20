@@ -1,6 +1,7 @@
 [
   "eight-ball.coffee",
   "haters.coffee",
+  "karma.coffee",
   "keep-alive.coffee",
   "likeaboss.coffee",
   "redis-brain.coffee",
