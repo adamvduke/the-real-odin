@@ -35,7 +35,7 @@ default_filters = process.env.HUBOT_TWITTER_STREAM_FILTERS
 
 stream_rooms = []
 for room_id in process.env.HUBOT_TWITTER_STREAM_ROOM_IDS.split(',')
-  stream_rooms.push(parseInt(room_id))
+  stream_rooms.push(room_id)
 
 current_room_id = (msg) ->
   msg.message.room
