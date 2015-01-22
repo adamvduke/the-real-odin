@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -n Odin
+app: bin/hubot -a slack -n Odin
