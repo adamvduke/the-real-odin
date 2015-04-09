@@ -1,5 +1,5 @@
 # Description
-#   Listens for 'riley me' and posts deal with it dog
+#   Listens for 'riley me' and posts riley
 #
 # Dependencies:
 #   None
